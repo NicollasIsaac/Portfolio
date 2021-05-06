@@ -592,7 +592,10 @@ footer{
         font-size: 0.9rem;
     }
     .contato-right{
-        padding: 1REM 3REM 3rem 3rem;
+        padding: 1REM 4REM 4rem 3rem;
+    }
+    .btn-submit{
+        width: 100%;
     }
     .card{
         margin: 4rem auto;
