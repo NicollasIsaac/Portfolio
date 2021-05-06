@@ -626,3 +626,42 @@ footer{
     }
 }
 
+@media(min-width:2000px){
+    .conhecimentos{
+        margin-top: 4rem;
+        grid-template-columns: repeat(16, 1fr);
+        grid-template-rows: repeat(5, 17rem);
+    }
+    .sessao-header{
+        padding-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .sessao-projetos{
+        margin-bottom: 5rem;
+    }
+    .contato-wrapper{
+        color: #262626;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .conhecimentos p {
+        font-size: 1.4rem;
+    }
+   .experiencias{
+       width: 100%;
+       grid-gap: 14rem;
+       grid-template-columns: 50rem 50rem;
+       padding-bottom: 5rem;
+   }
+   .footer-content p{
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+}
+.footer-content {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+}
+}
+
