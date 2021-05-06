@@ -552,7 +552,7 @@ footer{
     box-shadow: 0. 0.1rem 0.6rem #000000;
 }
 
-@media(max-width:600px){
+@media(max-width:1180px){
     .experiencias{
         display: inline-block;
         justify-content: center;
@@ -625,3 +625,4 @@ footer{
         margin-bottom: 1rem;
     }
 }
+
