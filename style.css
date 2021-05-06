@@ -149,6 +149,7 @@ header{
     cursor: pointer;
     opacity: 0;
     animation: moveBanner 1s 0.9s forwards;
+    outline:0;
 }
 .banner button:hover{
     color: #000;
@@ -197,7 +198,10 @@ header{
     justify-content: space-evenly;
 }
 .social-media i{
+    
     background-color: #6a3093;
+    background: -webkit-linear-gradient(to right, #753a88, #753a88);  
+    background: linear-gradient(to left, #753a88, #6a3093);
     color:rgba(255,255,255,1);
     height: 2.5rem;
     width: 2.5rem;
@@ -206,16 +210,20 @@ header{
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    transition: background-color 1s;
+    transition: 3s;
 }
 .social-media i:hover{
-    background-color: #a044ff;
+    transition: 2s ease;
+    background: #cc2b5e; 
+    background: -webkit-linear-gradient(to right, #753a88, #cc2b5e);  
+    background: linear-gradient(to left, #753a88, #cc2b5e);
 }
 .conhecimentos{
     display: grid;
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(6, 6rem);
     row-gap: .5rem;
+    padding-bottom: 2rem;
 }
 .conhecimento:nth-child(1){
     grid-column: 4 / 7;
@@ -358,6 +366,9 @@ header{
     border-radius: .5rem;
     box-shadow: 0 .1rem .8rem rgba(0,0,0,.4);
     border: none;
+}
+.btn:focus{
+    outline:0;
 }
 
 .card-info button{
