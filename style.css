@@ -551,3 +551,70 @@ footer{
     border-radius: .3rem;
     box-shadow: 0. 0.1rem 0.6rem #000000;
 }
+
+@media(max-width:600px){
+    .experiencias{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 0rem ;
+        grid-gap: 0rem;
+        row-gap: 0rem;
+        width: 60%;
+    }
+    .experiencia-text{
+        text-align: justify;
+        margin-bottom: 2.3rem;
+    }
+    .sessao-experiencias{
+        text-align: center;
+        padding-top: 2rem;
+    }
+    .footer-content{
+        display: block;
+    }
+    .footer-content p{
+        font-size: 1.1rem;
+        margin-bottom: .9rem;
+    }
+    .social-list li{
+        text-align: center;
+        width: 100%;
+    }
+    .contato-left{
+        display: none;
+    }
+    .field{
+        width: 100%;
+        font-size: 0.9rem;
+    }
+    .contato-right{
+        padding: 1REM 3REM 3rem 3rem;
+    }
+    .card{
+        margin: 4rem auto;
+    }
+    .projetos{
+        display: block;
+    }
+    .sessao-header h1{
+        margin-bottom: 0;
+    }
+    .conhecimentos-img-wrapper{
+        display: none;
+    }
+    .conhecimentos {
+        display: block;
+        width: 100%;
+    }
+    .conhecimento-header{
+        width: 70%;
+        justify-content: center;
+        text-align: center;
+    }
+    .conhecimento p{
+        width: 70%;
+        justify-content: center;
+        text-align: center;
+    }
+}
