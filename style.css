@@ -332,7 +332,6 @@ header{
     position: absolute;
     bottom: 0;
     opacity: 0;
-    visibility: hidden;
     padding: 2rem;
     text-shadow: 0.3rem 0.2rem 0.3rem rgba(0, 0, 0, 0.6);
     transition: all 0.3s;
@@ -553,6 +552,11 @@ footer{
 }
 
 @media(max-width:1180px){
+.card-info{
+    bottom: 2rem;
+    opacity: 1;
+    visibility: visible;
+}
     .experiencias{
         display: inline-block;
         justify-content: center;
