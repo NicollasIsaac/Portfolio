@@ -614,10 +614,10 @@ footer{
         display: none;
     }
     .conhecimentos {
-        display: initial;
-        width: 100%;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        display: table;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .conhecimento-header{
         text-align: justify;
@@ -625,7 +625,6 @@ footer{
     .conhecimento p{
         justify-content: center;
         text-align: justify;
-        width: 90%;
         margin-bottom: 1rem;
     }
 }
