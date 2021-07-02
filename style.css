@@ -753,3 +753,16 @@ footer  p{
    }
 }
 
+/*==== Scroll Personalizado ====*/
+::-webkit-scrollbar{
+	width: 10px;
+}
+::-webkit-scrollbar-thumb{
+	background: linear-gradient(transparent, #4b4b4b,#262626);
+	border-radius: 6px;
+	transition: .6s ease-in;
+}
+::-webkit-scrollbar-thumb:hover{
+	background: linear-gradient(transparent, #ff4081, #6a3093);
+	transition: .6s ease-in;
+}
