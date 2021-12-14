@@ -7,6 +7,7 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+    user-select: none;
 }
 :root{
     --font-primary: "Baloo 2", serif;
